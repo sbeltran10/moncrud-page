@@ -1,0 +1,77 @@
+main.container-fluid{
+  margin-top: 2rem;
+}
+
+main section{
+  padding: 0 5%;
+}
+
+.intro-section p{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-size: 1.7rem;
+  text-align: center;
+  color: rgb(68, 155, 69);
+}
+
+main .features-section{
+  background-color: rgb(68, 155, 69);
+}
+
+.features-explain-main{
+  color: white;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+}
+
+.fork-me{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.links-section{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.links-explain-main{
+  font-size: 1.3rem;
+  text-align: center;
+  color: rgb(68, 155, 69);
+  margin-bottom: 2rem;
+}
+
+.links-section div{
+  display: flex;
+  justify-content: center;
+}
+
+
+.links-section a{
+  text-decoration: none;
+  color: rgb(68, 155, 69);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 80%;
+  border: 1px solid rgb(68, 155, 69);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.links-section a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(68, 155, 69);
+}
+
+@media screen and (min-width: 1000px){
+  main section{
+    padding: 0 15%;
+  }
+}

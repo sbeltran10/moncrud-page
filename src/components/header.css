@@ -1,0 +1,50 @@
+header ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+header li {
+  margin-bottom: 0;
+}
+
+header li a {
+  display: block;
+  color: rgb(68, 155, 69);
+  height: 3rem;
+}
+
+header .link-li a:hover {
+  color: rgb(68, 155, 69);
+  text-decoration: none;
+  background-color: #f0f0f0;
+}
+
+.logo-cont-li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo-cont-li a {
+  width: 10rem;
+  height: fit-content;
+}
+
+.link-li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 5rem;
+  margin: 0 0.5rem;
+}
+
+@media screen and (min-width: 1000px){
+  header ul{
+    padding: 0 10rem;
+  }
+}
