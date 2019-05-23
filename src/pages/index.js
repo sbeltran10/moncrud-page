@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import FeatureBox from "../components/feature-box"
 import { StaticQuery, graphql } from "gatsby"
 import "./index.css"
-const keywords = [`mongodb`, `nodejs`, `expressjs`, `browser`, `open-source`, `pug`, `crud`, `mongo`,]
+const keywords = [`mongodb`, `nodejs`, `expressjs`, `browser`, `open-source`, `pug`, `crud`, `mongo`]
 
 const IndexPage = () => (
   <StaticQuery
@@ -52,13 +52,10 @@ const IndexPage = () => (
     render={data =>
       <Layout isHome={true}>
         <SEO title="Moncrud" keywords={keywords} />
-        <a href="https://github.com/sbeltran10/moncrud">
-          <img class="fork-me" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_gray_6d6d6d.png?resize=149%2C149" alt="Fork me on GitHub" data-recalc-dims="1" />
-        </a>
-        <main className="container-fluid">
+        <main className="container-fluid main-page">
           <section className="intro-section row">
             <div className="offset-1 col-10 offset-sm-4 col-sm-4  img-col">
-              <Img fadeIn={false} fluid={data.logo.childImageSharp.fluid} />
+              <Img fadeIn={false} fluid={data.logo.childImageSharp.fluid} alt="logo"/>
             </div>
             <p className="col-12">
               Open source tool that allows simple CRUD operations on any mongoDB database

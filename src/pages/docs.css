@@ -1,0 +1,24 @@
+main.container-fluid.docs-main{
+  margin-top: 2rem;
+  padding: 0 0.5rem;
+}
+
+main.container-fluid.docs-main a{
+  color: rgb(68, 155, 69);
+}
+
+main.container-fluid.docs-main h1{
+  margin-bottom: 2rem;
+  color: rgb(68, 155, 69);
+}
+
+.code-snip{
+  font-family: 'Consolas';
+  background-color: rgba(0,0,0,0.1);
+}
+
+@media screen and (min-width: 992px){
+  main.container-fluid.docs-main{
+    padding: 0 15rem;
+  }
+}

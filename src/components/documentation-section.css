@@ -1,0 +1,20 @@
+.documentation-section{
+  margin-bottom: 3rem;
+}
+
+.documentation-section h2{
+  padding-bottom: 0.5rem;
+  color: rgb(68, 155, 69);
+}
+
+.documentation-section .img-cont{
+  margin-bottom: 1rem;
+}
+
+.documentation-section p:last-child{
+  margin-bottom: 0;
+}
+
+.documentation-section .img-cont img{
+  border: 1px solid rgb(68, 155, 69);
+}

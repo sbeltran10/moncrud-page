@@ -1,0 +1,12 @@
+.support-yes,
+.support-no {
+  color: white;
+}
+
+.support-yes{
+  background-color: green
+}
+
+.support-no{
+  background-color: darkred
+}

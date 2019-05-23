@@ -2,7 +2,7 @@ main.container-fluid{
   margin-top: 2rem;
 }
 
-main section{
+main.main-page section{
   padding: 0 5%;
 }
 
@@ -24,12 +24,6 @@ main .features-section{
   margin-top: 3rem;
   margin-bottom: 2rem;
   font-size: 1.3rem;
-}
-
-.fork-me{
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .links-section{
@@ -70,8 +64,8 @@ main .features-section{
   background-color: rgb(68, 155, 69);
 }
 
-@media screen and (min-width: 1000px){
-  main section{
+@media screen and (min-width: 992px){
+  main.main-page section{
     padding: 0 15%;
   }
 }

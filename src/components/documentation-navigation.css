@@ -1,0 +1,21 @@
+.docs-nav{
+  border: 1px solid rgb(68, 155, 69);
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.docs-nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.docs-nav a{
+  color: rgb(68, 155, 69);
+}
+
+.docs-nav a:hover, a:visited{
+  color: rgb(68, 155, 69);
+  opacity: 0.5;
+}
+

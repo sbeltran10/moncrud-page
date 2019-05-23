@@ -27,11 +27,13 @@ header .link-li a:hover {
   flex: 1;
   display: flex;
   align-items: center;
+  height: fit-content;
+  padding-left: 10rem;
 }
 
 .logo-cont-li a {
-  width: 10rem;
-  height: fit-content;
+  width: 12rem;
+  height: auto;
 }
 
 .link-li a {
@@ -43,8 +45,18 @@ header .link-li a:hover {
   margin: 0 0.5rem;
 }
 
-@media screen and (min-width: 1000px){
-  header ul{
-    padding: 0 10rem;
+@media screen and (min-width: 992px) {
+  .logo-cont-li {
+    padding-left: 0;
   }
+
+  header ul {
+    padding: 0 15rem;
+  }
+}
+
+.fork-me {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
