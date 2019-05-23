@@ -3,6 +3,7 @@ module.exports = {
     title: `Moncrud`,
     description: `Open source tool that allows simple CRUD operations on any mongoDB database.`,
     author: `@sbeltran10`,
+    siteUrl: `https://www.moncrud.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +28,7 @@ module.exports = {
         icon: `src/images/icon-sm.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
