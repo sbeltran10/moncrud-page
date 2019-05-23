@@ -57,9 +57,9 @@ const IndexPage = () => (
             <div className="offset-1 col-10 offset-sm-4 col-sm-4  img-col">
               <Img fadeIn={false} fluid={data.logo.childImageSharp.fluid} alt="logo"/>
             </div>
-            <p className="col-12">
+            <h1 className="col-12">
               Open source tool that allows simple CRUD operations on any mongoDB database
-            </p>
+            </h1>
           </section>
           <section className="row features-section">
             <p className="offset-0 col-12 offset-sm-2 col-sm-8 features-explain-main">
